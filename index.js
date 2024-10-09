@@ -47,7 +47,11 @@ function addTask() {
         const taskToDelete = event.target.closest(".tasks");
         taskToDelete.remove();
     });
+        
 
+
+                /* Editing Tasks*/
+                /*coming Soon*/
 
 
     /* Completed Tasks*/
@@ -60,6 +64,8 @@ function addTask() {
             spanElement.classList.toggle("done")
         }
     })
+
+
 }
 
 }
